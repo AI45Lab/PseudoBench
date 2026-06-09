@@ -1,6 +1,6 @@
 # PseudoBench
 
-This folder contains a minimal open-source version of PseudoBench.
+This folder contains a open-source version of PseudoBench.
 
 - `PseudoBench.jsonl`: benchmark items
 - `prompt.py`: prompts for report generation and evaluation
