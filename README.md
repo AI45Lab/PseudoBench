@@ -5,7 +5,7 @@
 <div align="center">
 <a href="https://github.com/liao1123/PseudoBench/blob/main/LICENSE"><img src="https://img.shields.io/badge/Code_License-MIT-blue" alt="license"></a>
 <a href=""><img src="https://img.shields.io/badge/Website-PseudoBench-green
-" alt="website"></a>
+"></a>
 <a href=""><img alt="Dataset" src="https://img.shields.io/badge/🤗%20Dataset-orange?color=FF6F00"></a>
 <a href="" target="_blank"><img src=https://img.shields.io/badge/arXiv-b5212f.svg?logo=arxiv></a>
 
@@ -127,6 +127,7 @@ pip install openai tqdm
 PseudoBench/
 ├── PseudoBench.jsonl           # benchmark claim-evidence pairs
 ├── prompt.py                   # report-generation and evaluation prompts
+├── get_report.py               # minimal Codex-based report generation script
 ├── evaluate.py                 # minimal PDF evaluation script
 ├── assets/                     # overview and benchmark figures
 └── workspaces/
@@ -152,6 +153,20 @@ workspaces/<agent_name>_workspace/<uuid>/report.pdf
 ```
 
 The generator should use `REPORT_GENERATION_PROMPT` defined in `prompt.py`, read the benchmark item, execute a full research-style workflow, and produce a final paper-style PDF in the corresponding workspace.
+
+A minimal Codex-based runner is provided in `get_report.py`. Example:
+
+```bash
+python get_report.py \
+  --model gpt-5.4 \
+  --input_path PseudoBench.jsonl \
+  --output_path workspaces/codex_workspace \
+  --base_url http://localhost:8000/v1 \
+  --api_key YOUR_API_KEY \
+  --max_concurrent 4
+```
+
+In this open-source folder, `get_report.py` is the only built-in generation runner and currently targets `Codex`. The other systems listed below are included as reference invocation patterns for reproducing the benchmark with different auto-research agents.
 
 Typical invocation commands for the auto-research systems evaluated in PseudoBench are:
 
