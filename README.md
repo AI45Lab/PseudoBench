@@ -3,10 +3,10 @@
 </div>
 
 <div align="center">
-<a href="https://github.com/liao1123/PseudoBench/blob/main/LICENSE"><img src="https://img.shields.io/badge/Code_License-MIT-blue" alt="license"></a>
-<a href="https://github.com/liao1123/PseudoBench"><img src="https://img.shields.io/badge/Website-PseudoBench-green" alt="website"></a>
-<a href="https://github.com/liao1123/PseudoBench"><img alt="Dataset" src="https://img.shields.io/badge/🤗%20Dataset-orange?color=FF6F00"></a>
-<a href="https://github.com/liao1123/PseudoBench" target="_blank"><img src="https://img.shields.io/badge/arXiv-b5212f.svg?logo=arxiv" alt="arxiv"></a>
+<a href="https://github.com/AI45Lab/PseudoBench/blob/main/LICENSE"><img src="https://img.shields.io/badge/Code_License-MIT-blue" alt="license"></a>
+<a href="https://github.com/AI45Lab/PseudoBench"><img src="https://img.shields.io/badge/Website-PseudoBench-green" alt="website"></a>
+<a href="https://github.com/AI45Lab/PseudoBench"><img alt="Dataset" src="https://img.shields.io/badge/🤗%20Dataset-orange?color=FF6F00"></a>
+<a href="https://github.com/AI45Lab/PseudoBench" target="_blank"><img src="https://img.shields.io/badge/arXiv-b5212f.svg?logo=arxiv" alt="arxiv"></a>
 
 </div>
 
@@ -115,7 +115,7 @@ These three dimensions are further decomposed into 14 second-level submetrics. S
 ### Setup
 
 ```bash
-git clone https://github.com/liao1123/PseudoBench.git
+git clone https://github.com/AI45Lab/PseudoBench.git
 cd PseudoBench
 pip install openai tqdm
 ```
@@ -202,6 +202,9 @@ results/<judge_model_name>/<agent_name>/result.jsonl
 ```
 
 ## 🤝 Acknowledgements
+
+The auto-research system implementation in PseudoBench is inspired in part by
+[ResearchClawBench](https://github.com/InternScience/ResearchClawBench).
 
 ## 📜 Citation
 If you would like to cite our work, please use the following BibTeX.
