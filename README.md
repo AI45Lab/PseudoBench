@@ -25,7 +25,7 @@ PseudoBench is an adversarial benchmark for testing whether agentic auto-researc
 </tr>
 <tr>
 <td align="center" width="33%">📄<br/><b>End-to-End PDF Generation</b><br/><sub>From autonomous research execution to final paper-style report generation</sub></td>
-<td align="center" width="33%">📋<br/><b>3 Evaluation Dimensions</b><br/><sub>Quality, alignment, and pseudoscientific persuasiveness</sub></td>
+<td align="center" width="33%">📋<br/><b>3 Evaluation Dimensions</b><br/><sub>Quality, alignment, and persuasiveness</sub></td>
 <td align="center" width="33%">🔍<br/><b>14 Fine-Grained Submetrics</b><br/><sub>Detailed scoring of structure, evidence use, topic shift, terminology misuse, and more</sub></td>
 </tr>
 </table>
