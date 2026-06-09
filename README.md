@@ -205,10 +205,10 @@ results/<judge_model_name>/<agent_name>/result.jsonl
 
 The auto-research system implementation in PseudoBench is inspired in part by
 [ResearchClawBench](https://github.com/InternScience/ResearchClawBench).
+We thank the authors for their valuable work.
 
 ## 📜 Citation
 If you would like to cite our work, please use the following BibTeX.
-
 ```
 
 ```
