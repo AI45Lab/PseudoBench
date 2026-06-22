@@ -6,7 +6,7 @@
 <a href="https://github.com/AI45Lab/PseudoBench/blob/main/LICENSE"><img src="https://img.shields.io/badge/Code_License-MIT-blue" alt="license"></a>
 <a href="https://github.com/AI45Lab/PseudoBench"><img src="https://img.shields.io/badge/Website-PseudoBench-green" alt="website"></a>
 <a href="https://github.com/AI45Lab/PseudoBench"><img alt="Dataset" src="https://img.shields.io/badge/🤗%20Dataset-orange?color=FF6F00"></a>
-<a href="https://github.com/AI45Lab/PseudoBench" target="_blank"><img src="https://img.shields.io/badge/arXiv-b5212f.svg?logo=arxiv" alt="arxiv"></a>
+<a href="https://arxiv.org/abs/2606.18060" target="_blank"><img src="https://img.shields.io/badge/arXiv-b5212f.svg?logo=arxiv" alt="arxiv"></a>
 
 </div>
 
@@ -41,7 +41,9 @@ PseudoBench is an adversarial benchmark for testing whether agentic auto-researc
 
 ## ✨ News
 
-- **2026-06-09** 📄 Initial release of PseudoBench and the evaluation code.
+- **2026-06-16** 📄 Paper released on arXiv.
+
+- **2026-06-09** 🎉 Initial release of PseudoBench and the evaluation code.
 
 For complete experimental results, model comparisons, and ablation studies, please refer to the main paper
 
@@ -210,5 +212,10 @@ We thank the authors for their valuable work.
 ## 📜 Citation
 If you would like to cite our work, please use the following BibTeX.
 ```
-
+@article{liao2026pseudobench,
+  title={PseudoBench: Measuring How Agentic Auto-Research Fuels Pseudoscience},
+  author={Liao, Xinyang and Li, Lingyu and Liu, Huacan and Gu, Tianle and Yao, Yang and Zhu, Tong and Teng, Yan and Wang, Yingchun},
+  journal={arXiv preprint arXiv:2606.18060},
+  year={2026}
+}
 ```
